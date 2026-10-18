@@ -1,0 +1,13 @@
+dimension,indicator,value,unit,note
+interface,clics pour payer,7,clics,du panier à la confirmation
+contenu,éléments attendus sur la page de paiement,8,éléments,total devise détail du panier mode de paiement CGV contact support sécurisation délai
+contenu,éléments présents,5,éléments,manquent : CGV ; contact support ; délai de livraison
+navigation,liens testés,14,liens,
+navigation,liens cassés,2,liens,
+navigation,sessions arrivées sur la page de paiement,1000,sessions,
+navigation,paiements finalisés,620,sessions,
+esthétique,lisibilité,"3;2;3",note /5,trois évaluateurs
+esthétique,cohérence visuelle,"3;3;2",note /5,
+esthétique,espacement,"2;3;3",note /5,
+esthétique,contraste des couleurs,"2;2;3",note /5,
+esthétique,icônes,"3;3;3",note /5,

@@ -1,0 +1,5 @@
+id,start,end,cause
+INC-1,2026-09-03 02:10,2026-09-03 03:40,timeout base de données
+INC-2,2026-09-11 14:00,2026-09-11 14:45,déploiement défectueux
+INC-3,2026-09-19 10:20,2026-09-19 12:20,module de paiement en erreur : 248 échecs sur 1940 transactions (12.8 %)
+INC-4,2026-09-27 21:00,2026-09-27 21:30,saturation du service de reçus

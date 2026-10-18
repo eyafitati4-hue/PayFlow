@@ -1,0 +1,9 @@
+id,version,detected_in,component,severity,description
+D01,v1.2,production,pay,high,paiement portefeuille : la devise n'est pas convertie (montant en EUR débité comme des TND)
+D02,v1.2,production,refund,high,remboursement possible sans paiement d'origine (double remboursement possible)
+D03,v1.1,production,recordTransaction,high,transactions seulement affichées en console jamais enregistrées (E3 non respectée)
+D04,v1.1,production,sendReceipt,medium,reçu affiché en console jamais envoyé au client (E5 non respectée)
+D05,v1.2,production,pay,medium,montant supérieur à 5000 : statut PENDING_CHECK jamais traité ni enregistré
+D06,v1.1,production,getStatus,medium,renvoie le solde du portefeuille au lieu de l'état du paiement (E6 non respectée)
+D07,v1.1,recette,validateCard,medium,toute chaîne alphanumérique d'au moins 4 caractères est acceptée comme carte valide
+D08,v1.2,revue de code,pay,low,constantes en dur : 0.9 (remise) 3.1 (taux de change) 5000 (seuil)
